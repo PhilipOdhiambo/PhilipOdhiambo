@@ -4,8 +4,10 @@
 
   /* Color */
   --primary-color: #573587;
+  --primary-color-variant: #684896;
   --secondary-color: #32BAAD;
   --bg-gradient:linear-gradient(90deg, var(--primary-color) , var(--secondary-color) );
+  --bg-gradient-hover:linear-gradient(90deg, var(--primary-color-variant) , var(--secondary-color) );
 
   /* Font and Typography */
 
@@ -24,22 +26,25 @@
 html, body,h1,h2 {
   margin: 0;
   padding: 0;
+  font-size: 16px;
 }
 
 body {
   background: rgba(112, 67, 163, 0.10);
+  padding-bottom: 200px;
 }
 
 nav {
-  padding: 1.5rem 2rem;
-  margin-bottom: 3.5rem;
-  border-bottom: 1px gray;
+  padding: 0 2rem;
+  margin-bottom: 4rem;
+  border-bottom: 0.5px solid rgba(128, 128, 128, 0.158);
 
 }
 
 .nav__container {
   display: flex;
   align-items: center;
+  justify-content: space-around;
 
 }
 
@@ -50,6 +55,7 @@ nav ul {
 
 nav li {
   font: var(--body-font-large);
+  padding: 2rem;
 }
 
 .hero {
@@ -59,19 +65,49 @@ nav li {
 
 h1 {
   font: var(--h1-font);
-  color: rgba(0, 0, 0, 0.582);
-
-  
+  color: rgba(0, 0, 0, 0.582);  
 }
+
 h2 {
   color: transparent;
   font: var(--h2-font);
   background-image: var(--bg-gradient);
   background-clip: text;
   -webkit-background-clip: text;
-
 }
 
-p{
+.mission {
   font:var(--body-font-large);
 }
+
+.button {
+  padding: 1.2rem 2.4rem;
+  background: var(--bg-gradient);
+  color: white;
+  font: var(--body-font-regular);
+  border-radius: 5%;
+  border-style: none;
+  margin-left: 15%;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: var(--bg-gradient-hover);
+}
+
+.button::after {
+  content: '';
+  background: url(images/arrow-down-outline.svg);
+  background-position: center;
+  float: right;
+  margin-left:1.5rem ;
+  margin-top: -2px;
+  width: 2rem;
+  height: 2rem;
+}
+
+
+.call-to-action {
+
+}
+
