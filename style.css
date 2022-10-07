@@ -153,15 +153,20 @@ section {
 .card {
   background-color: white;
   padding: 2rem;
-  height: 80vh;
 }
 
-#bincard .img1 {
-  float: left;
-  width: 100%;
-}
-#bincard .img2 {
-  float: right;
-  width: 100%;
+#bincard .image-container {
+  display: grid;
 }
 
+#bincard .image-container .image1 {
+  grid-column: 2 /span 2;
+  grid-row: 1 / span 2;
+}
+#bincard .image-container .image2 {
+  grid-column: 1 /span 2;
+  grid-row: 2 / span 2;
+  opacity: 0.5;
+  border: 1px solid grey;
+  
+}
