@@ -11,9 +11,8 @@
 <body>
   <nav>
     <div class="nav__container">
-      <div class="logo">
-        logo
-
+      <div class="brand">
+        <span class="brand__logo"></span>
       </div>
       <ul>
         <li>Projects</li>
@@ -33,10 +32,43 @@
   </div>
 
   <div class="call-to-action">
-    <button class="button ">See My work 
+    <a href="#my-work"  class="button ">See My work 
       <span class="scroll-down"></span>
-    </button>
+    </a>
   </div>
+
+  <section id="my-work">
+    <h1 class="section-title">Projects</h1>
+
+    
+    <div id="bincard" class="card">
+      <h2>Stock Inventory</h2>
+
+      <p>
+        Leveraged the power of frontend framework angular to power this
+        app. It demonstrates the use of frondend routing with a backend as a service. I have Integrated use of google sheets as a database where I need a way to store data for ease of editing and retrieval via the app interface.
+      </p>
+      <p>
+        Transactions have been stored in the firebase database where I also manage user authentication with google.
+      </p>
+      <p>
+        Technologies employed:
+      </p>
+  
+      <ul>
+        <li>Google appscript</li>
+        <li>Typescript and javascript</li>
+        <li>Sass CSS and Vanilla CSS</li>
+      </ul>
+
+      <img class="img1" src="images/bincard1.png" alt="bincard image 1">
+      <img class="img2" src="images/bincard2.png" alt="bincard image 2">
+  
+    
+    </div>
+
+
+  </section>
   
 </body>
 </html>

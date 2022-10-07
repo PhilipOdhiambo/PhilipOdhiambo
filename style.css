@@ -29,9 +29,15 @@ html, body,h1,h2 {
   font-size: 16px;
 }
 
+
+li {
+  font: var(--body-font-regular);
+  color: var(--secondary-color);
+}
+
 body {
   background: rgba(112, 67, 163, 0.10);
-  padding-bottom: 200px;
+  
 }
 
 nav {
@@ -48,9 +54,24 @@ nav {
 
 }
 
+.brand {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.brand__logo {
+  width: 150px;
+  height: 100px;
+  background: url(images/favicon.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  transform: scale(0.5);
+}
+
+
 nav ul {
   display: flex;
-  list-style: none;
 }
 
 nav li {
@@ -60,7 +81,7 @@ nav li {
 
 .hero {
   width: 70%;
-  margin: 0 auto;
+  margin: 0 auto 4rem;
 }
 
 h1 {
@@ -74,6 +95,10 @@ h2 {
   background-image: var(--bg-gradient);
   background-clip: text;
   -webkit-background-clip: text;
+}
+
+p {
+  font:var(--body-font-regular);
 }
 
 .mission {
@@ -106,8 +131,37 @@ h2 {
   height: 2rem;
 }
 
-
 .call-to-action {
+  padding-bottom: 100px;
+  
+}
 
+
+/* My work section */
+section {
+  width: 70%;
+  margin: 2rem auto;
+}
+
+
+.section-title {
+  font: var(--h1-font);
+  color: var(--secondary-color);
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.card {
+  background-color: white;
+  padding: 2rem;
+  height: 80vh;
+}
+
+#bincard .img1 {
+  float: left;
+  width: 100%;
+}
+#bincard .img2 {
+  float: right;
+  width: 100%;
 }
 
