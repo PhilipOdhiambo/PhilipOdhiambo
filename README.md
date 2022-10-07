@@ -1,6 +1,6 @@
 ##  👋  Hi, I’m Philip Owino
 ### Speciality - Software Developer | Software Engineer
-I have over 5 year experience as a software engineer, the first four years as a self taught ethusiast before a got formal training
+I have over 5 years experience as a software engineer, the first four years as a self taught ethusiast before a got formal training
 ###  🌱 Learning currently
 1. Microservices
 1. Integrating payment interface to my applications
