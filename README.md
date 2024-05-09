@@ -1,4 +1,4 @@
-##  👋  Hi, I’m Philip Owino
+##  👋  Hi, I’m Philip Odhiambo Owino
 
 [See portfolio page!](https://philipodhiambo.github.io/PhilipOdhiambo)
 </br>
